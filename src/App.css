@@ -27,7 +27,24 @@
 .App-link {
   color: #61dafb;
 }
+.increment, .decrement {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; /* Makes the buttons circular */
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
 
+.increment {
+    background-color: green;
+    color: white;
+}
+
+.decrement {
+    background-color: red;
+    color: white;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
